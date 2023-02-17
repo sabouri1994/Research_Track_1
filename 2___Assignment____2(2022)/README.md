@@ -11,16 +11,16 @@ S5659227
 This project is a robotic simulation that utilizes the main core features of ROS to create software for robots. This implementation includes a command-line based user interface to send positional goals to the robot, nodes communication based on costom messages and publisher-subscriber architecture, as well as ROS services and action servers to implement tasks like goal summaries, robot planning, and navigation. Lastly, launch files are used to set global parameters and manage the running of multiple nodes.
 
 # Command-line User Interface:
-Sending positional goals to the robot through a command-line based user interface for easy and efficient communication.\
+Sending positional goals to the robot through a command-line based user interface for easy and efficient communication.
 
--**Custom Message Publisher-Subscriber:** Nodes communicate using custom messages and publisher-subscriber architecture, this allows nodes to easily send and receive messages in real time.\
+-**Custom Message Publisher-Subscriber:** Nodes communicate using custom messages and publisher-subscriber architecture, this allows nodes to easily send and receive messages in real time.
 
--**ROS Services:** ROS services are used to perform short-running tasks like reporting the goal summary.\
+-**ROS Services:** ROS services are used to perform short-running tasks like reporting the goal summary.
 
--**ROS Actions Servers:** The long-running tasks such as robot planning and navigation are handled by ROS action servers.\
+-**ROS Actions Servers:** The long-running tasks such as robot planning and navigation are handled by ROS action servers.
 
 -**Launch Files:** Launch files are utilized to set global parameters and manage multiple running nodes.
-When downloaded, this robotic simulation would include a complete README file documenting the use of the main core features and an example of the code in action.\
+When downloaded, this robotic simulation would include a complete README file documenting the use of the main core features and an example of the code in action.
 
 # Main Core Features of this Implementation
 This robotic simulation utilizes the main core features of ROS to create robot softwares. The features allow for command-line-based user interfaces to send positional goals to robots and nodes communication based on custom messages and publisher-subscriber architecture. Additionally, short and long running tasks, such as reporting a goal summary or robot navigation, are handled using ROS services and action servers. Furthermore, launch files are used to set global parameters and manage running of multiple nodes.
